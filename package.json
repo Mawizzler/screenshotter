@@ -1,7 +1,7 @@
 {
   "private": true,
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   },
   "scripts": {
     "start": "micro -l tcp://0.0.0.0:${PORT-3000} api/dist/index.js",
